@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pertanian</title> <!--mengubah nama tampilan taksbar-->
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #7091F5;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            padding: 10px 0px;
+        }
+
+        .button-container {
+          display: flex;
+          gap: 10px;
+        }
+
+        button {
+            background-color: #1AACAC;
+            border: none;
+            color: #A6F6FF;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 6px 6px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+
+        button a {
+            color: #A6F6FF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            padding-bottom: 30px;
+            color: black;
+        }
+
+        h2 {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+
+        p {
+            font-family: sans-serif;
+            margin: 15px;
+            line-height: 1.5;
+            color: black;
+        }
+
+        footer {
+            background-color: #7091F5;
+            color: #FFFD8C;
+            text-align:center;
+            padding: 20px;
+        }
+        
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+
+        th {
+          background-color: #FFFD8C;
+        }
+
+        th, td {
+          border-color: rgb(10, 0, 205);
+          text-align: center;
+        }
+
+    </style>
+</head> 
+
+<head>
+    <header>
+        <div class="container">
+          <button>
+            <a href="#home">
+              Home
+            </a>
+          </button>
+
+          <button>
+            <a href="#about">
+              About
+            </a>
+          </button>
+
+          <button>
+            <a href="#contact">
+              Contact
+            </a>
+          </button>
+      </div>
+      
+    
+      <h1>Welcome to Mari Bertani</h1>
+    
+    </header>
+    <h2>  Artikel ini akan membahas teknik dan strategi untuk mencapai kesuksesan dalam bercocok tanam organik. Kami akan membagikan panduan praktis, mulai dari persiapan tanah hingga pemeliharaan tanaman.</h2>
+  </head>
+  
+  <body>
+    <p style="font-size: 115%; font-family: sans-serif" >Dalam era digital, teknologi telah mengubah wajah pertanian. Kami akan menjelaskan bagaimana teknologi seperti IoT (Internet of Things) </p>
+    <p style="font-size: 115%; font-family: sans-serif" >dan drone digunakan dalam pertanian modern <u><i><mark>  untuk meningkatkan produktivitas </mark></i></u> </p>
+    <br><hr><hr>
+    <p style="font-size: 110%; font-family: sans-serif" >Kami adalah kelompok petani yang berkomitmen untuk mengembangkan pertanian modern dan berkelanjutan. </p>
+    <p style="font-size: 110%; font-family: sans-serif">Dengan pengalaman bertahun-tahun, kami ingin berbagi pengetahuan kami untuk <i><u><mark> membantu pertanian tumbuh dan berkembang. </mark></i></u></p>
+    
+    
+    <h3>Produk Pertanian</h3>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #000; padding: 10px;" cellpadding="7">
+    <thead>
+        <tr>
+            <th style="border: 1px solid #000;">Nama Produk</th>
+            <th style="border: 1px solid #000;">Jenis</th>
+            <th style="border: 1px solid #000;">Harga</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #000;">Padi</td>
+            <td style="border: 1px solid #000;">Pangan</td>
+            <td style="border: 1px solid #000;">Rp 42.000</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">Jagung</td>
+            <td style="border: 1px solid #000;">Pangan</td>
+            <td style="border: 1px solid #000;">Rp 5.000</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #000;">Tomat</td>
+            <td style="border: 1px solid #000;">Sayuran</td>
+            <td style="border: 1px solid #000;">Rp 3.000</td>
+        </tr>
+    </tbody>
+</table>
+
+<br><br><br>
+
+<h3>Formulir Sederhana</h3>
+<form action="index.html" method="POST">
+    <label for="namadepan">Nama Depan: </label><br>
+    <input type="text" id="namadepan" name="namadepan"><br>
+    <label for="namabelakang">Nama Belakang: </label><br>
+    <input type="text" id="namabelakang" name="namabelakang"><br><br>
+    <label for="jeniskelamin">Jenis Kelamin:</label><br>
+    <input type="radio" id="pria" name="jeniskelamin" value="Pria">
+    <label for="pria">Pria</label>
+    <input type="radio" id="wanita" name="jeniskelamin" value="Wanita">
+    <label for="wanita">Wanita</label><br><br>
+    <label for="alamat">Alamat:</label><br>
+    <textarea id="alamat" name="alamat" rows="4" cols="50"></textarea><br><br>
+    <label for="hobi">Hobi:</label><br>
+    <select id="hobi" name="hobi">
+        <option value="memancing">Memancing</option>
+        <option value="berkebun">Berkebun</option>
+        <option value="membaca">Membaca</option>
+    </select><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+
+    <footer>
+      @Mari Bertani
+    </footer>
+
+  </body>
+</html>
+
+
+
